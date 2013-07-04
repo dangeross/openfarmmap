@@ -1,0 +1,44 @@
+{
+  "name": "iD",
+  "version": "1.1.0beta1",
+  "description": "a new editor for openstreetmap",
+  "main": "iD.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs test/index.html && make && mocha-phantomjs test/index_packaged.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/systemed/iD.git"
+  },
+  "keywords": [
+    "editor",
+    "openstreetmap"
+  ],
+  "license": "WTFPL",
+  "devDependencies": {
+    "d3": "3",
+    "smash": "0.0",
+    "uglify-js": "~2.2.5",
+    "maki": "0.1",
+    "mocha": "~1.9",
+    "mocha-phantomjs": "~1.1.1",
+    "chai": "~1.4",
+    "sinon": "~1.6",
+    "sinon-chai": "~2.3.1",
+    "happen": "~0.1.2",
+    "glob": "~3.1.21",
+    "js-yaml": "~2.0.3",
+    "request": "~2.16.2",
+    "jsonschema": "~0.3.2",
+    "node-sprite": "~0.1.2",
+    "delve": "0.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "engineStrict": true
+}

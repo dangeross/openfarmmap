@@ -1,0 +1,21 @@
+{
+    "icon": "parking",
+    "fields": [
+        "parking",
+        "capacity",
+        "fee",
+        "supervised",
+        "park_ride",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "amenity": "parking"
+    },
+    "terms": [],
+    "name": "Parking"
+}

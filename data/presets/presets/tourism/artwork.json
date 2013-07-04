@@ -1,0 +1,12 @@
+{
+    "icon": "art-gallery",
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "tourism": "artwork"
+    },
+    "name": "Artwork"
+}

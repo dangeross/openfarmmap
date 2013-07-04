@@ -1,0 +1,11 @@
+{
+    "icon": "telephone",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "amenity": "telephone"
+    },
+    "name": "Telephone"
+}

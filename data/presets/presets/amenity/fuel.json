@@ -1,0 +1,17 @@
+{
+    "icon": "fuel",
+    "fields": [
+        "operator",
+        "address",
+        "building_yes"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "amenity": "fuel"
+    },
+    "name": "Gas Station"
+}

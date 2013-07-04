@@ -1,0 +1,20 @@
+{
+    "icon": "highway-path",
+    "fields": [
+        "structure",
+        "access",
+        "sac_scale",
+        "surface",
+        "incline",
+        "trail_visibility",
+        "ref"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "path"
+    },
+    "terms": [],
+    "name": "Path"
+}

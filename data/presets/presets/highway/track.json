@@ -1,0 +1,19 @@
+{
+    "icon": "highway-track",
+    "fields": [
+        "tracktype",
+        "oneway",
+        "structure",
+        "access",
+        "maxspeed",
+        "surface"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "track"
+    },
+    "terms": [],
+    "name": "Track"
+}
