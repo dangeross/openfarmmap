@@ -196,7 +196,7 @@ window.iD = function () {
     if (!detected) {
         context.background()
             .source(_.find(backgroundSources, function(l) {
-                return l.data.name === 'Bing aerial imagery';
+                return l.data.name === 'Agrista Agri';
             }));
     }
 

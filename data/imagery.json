@@ -1,5 +1,24 @@
 [
     {
+        "name": "Agrista Agri",
+        "template": "http://{t}.tiles.mapbox.com/v3/agrista.map-65ftbmpi/{z}/{x}/{y}.png",
+        "description": "The Agrista Agri Layer.",
+        "scaleExtent": [
+            0,
+            18
+        ],
+        "subdomains": [
+            "a",
+            "b",
+            "c",
+            "d"
+        ],
+        "default": "yes",
+        "logo": "agrista.png",
+        "sourcetag": "Agrista",
+        "terms_url": "http://opengeodata.org/agrista-imagery-details"
+    },
+    {
         "name": "Bing aerial imagery",
         "template": "http://ecn.t{t}.tiles.virtualearth.net/tiles/a{u}.jpeg?g=587&mkt=en-gb&n=z",
         "description": "Satellite imagery.",
@@ -13,7 +32,6 @@
             "2",
             "3"
         ],
-        "default": "yes",
         "sourcetag": "Bing",
         "logo": "bing_maps.png",
         "logo_url": "http://www.bing.com/maps",
